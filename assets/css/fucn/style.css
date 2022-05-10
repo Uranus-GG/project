@@ -1,0 +1,86 @@
+body {
+  background-color: #f7f7f7;
+}
+.hero-section {
+  background-image: url("../img/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding: 10rem 0; 1rem = 16px*/
+}
+
+.product-section {
+  padding: 3.5rem 0;
+}
+
+.news-section {
+  padding: 3.5rem 0;
+}
+
+.overview-section {
+  background-image: url("../img/bg3.jpg");
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 8rem 0;
+}
+
+.bg-footer {
+  height: 100px;
+  padding: 3.5rem;
+  background: linear-gradient(to top, #33ccff 0%, #f7f7f7 100%);
+}
+
+.bg-texttype {
+  height: 40px;
+  padding: 5px;
+  padding-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(to right, #3399ff 0%, #ffffff 100%);
+}
+
+.bg-headdetail {
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  color: #fff;
+  background: #66ccff;
+}
+
+.prodetail {
+  margin: 50px 0px 50px 0px;
+}
+
+.prodetail-left {
+  background-color: #ffffff;
+  height: 600px;
+  text-align: center;
+  padding: 30px;
+}
+
+.prodetail h1 {
+  color: #3399ff;
+}
+
+.prodetail-right {
+  background-color: #ffffff;
+  height: 600px;
+  padding: 30px;
+}
+
+.prodetail-left-nobg {
+  padding: 30px;
+}
+
+.prodetail-right h3 {
+  padding-bottom: 5px;
+  border-bottom: 5px solid rgb(50, 185, 248);
+  background-color: #ffffff;
+}

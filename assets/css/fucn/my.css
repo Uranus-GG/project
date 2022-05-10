@@ -1,0 +1,48 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+/* Start Modal Style */
+/* Add padding and center-align text to the container */
+.modalConfirmcontainer {
+  padding: 16px;
+  text-align: center;
+}
+
+
+/* The Modal (background) */
+.modalConfirm {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modalConfirm-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* Clear floats */
+.modalConfirmclearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+  /* End Modal Style */
